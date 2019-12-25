@@ -27,16 +27,16 @@ package bestTimeToBuyAndSellStockII
 
 func maxProfit(prices []int) int {
 	var (
-		buyPrice,profit int
-		buyFlag bool
+		buyPrice, profit int
+		buyFlag          bool
 	)
 
-	for i, v  := range prices{
-		if buyFlag==false && (i+2<=len(prices)) && prices[i+1]>v{
+	for i, v := range prices {
+		if !buyFlag && (i+2 <= len(prices)) && prices[i+1] > v {
 			buyPrice = v
 			buyFlag = true
 		}
-		if buyFlag && ((i==len(prices)-1)|| prices[i+1]<v){
+		if buyFlag && ((i == len(prices)-1) || prices[i+1] < v) {
 			profit += v - buyPrice
 			buyPrice = 0
 			buyFlag = false

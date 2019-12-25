@@ -19,11 +19,11 @@ package containsDuplicate
 
 func containsDuplicate(nums []int) bool {
 	numsMap := make(map[int]bool)
-	for _,v := range nums{
-		_ ,ok:= numsMap[v]
-		if !ok{
+	for _, v := range nums {
+		_, ok := numsMap[v]
+		if !ok {
 			numsMap[v] = true
-		}else{
+		} else {
 			return true
 		}
 	}

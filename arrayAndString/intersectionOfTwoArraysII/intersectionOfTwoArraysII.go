@@ -23,20 +23,20 @@ package intersectionOfTwoArraysII
 func intersect(nums1 []int, nums2 []int) []int {
 	var result []int
 	numsMap := make(map[int]int)
-	for _, v := range nums1{
+	for _, v := range nums1 {
 		numsMap[v] += 1
 	}
 
-	for _, v := range  nums2{
-		if len(numsMap) == 0{
+	for _, v := range nums2 {
+		if len(numsMap) == 0 {
 			break
 		}
 		_, ok := numsMap[v]
-		if ok{
+		if ok {
 			numsMap[v]--
-			result = append(result,v)
-			if numsMap[v] == 0{
-				delete(numsMap,v)
+			result = append(result, v)
+			if numsMap[v] == 0 {
+				delete(numsMap, v)
 			}
 		}
 	}
