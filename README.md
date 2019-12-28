@@ -13,10 +13,11 @@ Record my leetcode problem solving
 |1|[Two Sum](./algorithms/twoSum/twoSum.go)|Easy|
 |2|[Add Two Numbers](./algorithms/addTwoNumbers/addTwoNumbers.go)|Medium|
 |7|[Reverse Integer](./algorithms/reverseInteger/reverseInteger.go)|Easy|
-|7|[String to integer(atoi)](./algorithms/myAtoi/myAtoi.go)|Easy|
+|8|[String to integer(atoi)](./algorithms/myAtoi/myAtoi.go)|Medium|
 |26|[Remove Duplicates from Sorted Array](./algorithms/removeDuplicates/removeDuplicates.go)|Easy|
 |28|[Implement strStr()](./algorithms/strStr/strStr.go)|Easy|
 |36|[Valid Sudoku](./algorithms/isValidSudoku/isValidSudoku.go)|Medium|
+|38|[Count and Say](./algorithms/countAndSay/countAndSay.go)|Easy|
 |48|[Rotate Image](./algorithms/rotateImage/rotateImage.go)|Medium|
 |66|[Plus One](./algorithms/plusOne/plusOne.go)|Easy|
 |122|[Best Time to Buy and Sell Stock II](./algorithms/bestTimeToBuyAndSellStockII/maxProfit.go)|Easy|
