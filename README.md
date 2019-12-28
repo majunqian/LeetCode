@@ -9,6 +9,7 @@ Record my leetcode problem solving
 |1|[Two Sum](./algorithms/twoSum/twoSum.go)|Easy|
 |2|[Add Two Numbers](./algorithms/addTwoNumbers/addTwoNumbers.go)|Medium|
 |7|[Reverse Integer](./algorithms/reverseInteger/reverseInteger.go)|Easy|
+|7|[String to integer(atoi)](./algorithms/myAtoi/myAtoi.go)|Easy|
 |26|[Remove Duplicates from Sorted Array](./algorithms/removeDuplicates/removeDuplicates.go)|Easy|
 |28|[Implement strStr()](./algorithms/strStr/strStr.go)|Easy|
 |36|[Valid Sudoku](./algorithms/isValidSudoku/isValidSudoku.go)|Medium|
