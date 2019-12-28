@@ -1,7 +1,11 @@
 # LeetCode
 
+[![Build Status](https://travis-ci.com/majunqian/LeetCode.svg?branch=master)](https://travis-ci.com/majunqian/LeetCode)
+[![codecov](https://codecov.io/gh/majunqian/LeetCode/branch/master/graph/badge.svg)](https://codecov.io/gh/majunqian/LeetCode)
+
 Record my leetcode problem solving
 (golang)
+
 # TOC
 
 | # | Title  | Difficulty |
