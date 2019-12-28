@@ -11,6 +11,7 @@ func TestIsAnagram(t *testing.T) {
 		{"anagram", "nagaram", true},
 		{"rat", "car", false},
 		{"123中国我爱你", "我爱你中国123", true},
+		{"123中国我爱你", "123中国我爱", false},
 	}
 	for _, test := range tests {
 		if result := isAnagram(test.s, test.t); result != test.expected {

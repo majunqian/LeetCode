@@ -20,6 +20,11 @@ func TestRotate(t *testing.T) {
 				{9, 6, 3}},
 		},
 		{
+			name:     "",
+			matrix:   [][]int{{1}},
+			expected: [][]int{{1}},
+		},
+		{
 			name: "",
 			matrix: [][]int{
 				{5, 1, 9, 11},
