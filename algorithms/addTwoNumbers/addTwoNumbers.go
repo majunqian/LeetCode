@@ -1,7 +1,6 @@
 package addTwoNumbers
 
 import (
-	"fmt"
 	"math/big"
 	"strconv"
 )
@@ -44,14 +43,4 @@ func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	var c big.Int
 	c.Add(listToNum(l2), listToNum(l1))
 	return numToList(&c)
-}
-func printList(list *ListNode) {
-	for {
-		fmt.Println(list.Val, list.Next)
-		if list.Next != nil {
-			list = list.Next
-		} else {
-			return
-		}
-	}
 }
