@@ -33,7 +33,7 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 		nodes = append(nodes, node)
 	}
 	if len(nodes) == 0 || n < 1 {
-		panic("ListNode or n is valid")
+		return head
 	}
 	nTh := len(nodes) - n
 	if n == 1 {

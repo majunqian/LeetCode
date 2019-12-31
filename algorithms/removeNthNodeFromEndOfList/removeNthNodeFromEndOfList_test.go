@@ -14,6 +14,8 @@ func TestRemoveNthFromEnd(t *testing.T) {
 		{"", []int{1, 2}, 2, []int{2}},
 		{"", []int{1, 2}, 1, []int{1}},
 		{"", []int{1}, 1, []int{}},
+		{"", []int{}, 1, []int{}},
+		{"", []int{1, 2}, 0, []int{1, 2}},
 	}
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
@@ -35,6 +37,9 @@ func TestRemoveNthFromEnd(t *testing.T) {
 }
 
 func arrayToList(arr []int) *ListNode {
+	if len(arr) == 0 {
+		return nil
+	}
 	list := make([]ListNode, len(arr))
 	for i := range arr {
 		if len(arr)-1 == i {
