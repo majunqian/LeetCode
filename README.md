@@ -26,6 +26,7 @@ Record my leetcode problem solving
 |125|[Valid Palindrome](./algorithms/validPalindrome/validPalindrome.go)|Easy|
 |136|[Single Number](./algorithms/singleNumber/singleNumber.go)|Easy|
 |189|[Rotate Array](./algorithms/rotateArray/rotateArray.go)|Easy|
+|206|[Reverse Linked List](./algorithms/reverseList/reverseList.go)|Easy|
 |217|[Contains Duplicate](./algorithms/containsDuplicate/containsDuplicate.go)|Easy|
 |237|[Delete Node in a Linked List](./algorithms/deleteNode/deleteNode.go)|Easy|
 |242|[Valid Anagram](./algorithms/isAnagram/isAnagram.go)|Easy|
